@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveStatisticGraph", "PrimitiveStatisticGraph\PrimitiveStatisticGraph.csproj", "{FD3CF1B0-1546-4233-AB1C-69CB7772D1FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD3CF1B0-1546-4233-AB1C-69CB7772D1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3CF1B0-1546-4233-AB1C-69CB7772D1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3CF1B0-1546-4233-AB1C-69CB7772D1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3CF1B0-1546-4233-AB1C-69CB7772D1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {814813E9-9FE8-4A3E-BACF-C425A379D242}
+	EndGlobalSection
+EndGlobal
