@@ -54,12 +54,12 @@ namespace PrimitiveStatisticGraph
             // 
             // valueSales
             // 
-            this.valueSales.HeaderText = "Valor en Billones de USD";
+            this.valueSales.HeaderText = "Ventas en Billones de USD";
             this.valueSales.Name = "valueSales";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(306, 288);
+            this.button1.Location = new System.Drawing.Point(183, 288);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -85,9 +85,9 @@ namespace PrimitiveStatisticGraph
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridViewTextBoxColumn año;
         private System.Windows.Forms.DataGridViewTextBoxColumn valueSales;
-        private System.Windows.Forms.Button button1;
     }
 }
 
