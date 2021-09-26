@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 
 
 namespace PrimitiveStatisticGraph
 {    public partial class Form1 : Form
     {
+        private static Thread td;
+        
         public Form1()
         {
             InitializeComponent();
@@ -28,8 +31,6 @@ namespace PrimitiveStatisticGraph
         {
             Graphics lienzo = e.Graphics;
             Pen lapiz = new Pen(Color.White, 2);
-            //SolidBrush BrochaPinta = new SolidBrush(Color.red);
-            //lienzo.FillRectangle(BrochaPinta, 306, 12, 300, 270);
             lienzo.Clear(Color.White);
 
         }
@@ -43,7 +44,7 @@ namespace PrimitiveStatisticGraph
             Graphics lienzo = this.CreateGraphics();
             lienzo.Clear(Color.White);
             SolidBrush brush = new SolidBrush(Color.White);
-           // lienzo.FillRectangle(brush, 306, 12, 300, 270);
+           
             Pen lapiz = new Pen(Color.White, 2);
             SolidBrush BrochaPinta = new SolidBrush(Color.White);
             Rectangle rectangulo = new Rectangle(307, 12, 295, 265);
@@ -60,10 +61,14 @@ namespace PrimitiveStatisticGraph
             //Dibuja el Pie y leyenda
             for ( int i=0;i < pieProportion.Length-1; i++)
             {
+                float drangle = 0;
                 //Pie
                 angle = (pieProportion[i] * 360);
                 brush.Color = Color.FromArgb(255, rnd.Next(75, 230), rnd.Next(75, 230), rnd.Next(75, 230));
-                lienzo.FillPie(brush, rectangulo, lastValue, angle);
+                while (drangle <= angle) { 
+                    lienzo.FillPie(brush, rectangulo, lastValue, drangle);
+                    drangle +=  1;
+                }
                 lienzo.DrawPie(lapiz, rectangulo, lastValue, angle);
                 lastValue = angle + lastValue;
 
@@ -123,11 +128,11 @@ namespace PrimitiveStatisticGraph
             for (int i = 0; i < dataGridView1.RowCount-1; i++)
             {
                 pieProportion[i] = float.Parse(dataGridView1.Rows[i].Cells["valueSales"].Value.ToString()) / sum;
-                //MessageBox.Show(pieProportion[i].ToString());
             }
 
             //Llamar metodo para dibujar grafico estadistico
-            drawPie(pieProportion,sum);
+            Form1.td = new Thread(() => drawPie(pieProportion, sum));
+            Form1.td.Start();
         }
     }
 }

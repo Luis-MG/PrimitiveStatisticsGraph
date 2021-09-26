@@ -1,10 +1,14 @@
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\bin\Debug\PrimitiveStatisticGraph.exe.config
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\bin\Debug\PrimitiveStatisticGraph.exe
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\bin\Debug\PrimitiveStatisticGraph.pdb
-C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.csprojAssemblyReference.cache
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.Properties.Resources.resources
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.csproj.GenerateResource.cache
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.csproj.CoreCompileInputs.cache
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.exe
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.pdb
 C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.Form1.resources
+C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\bin\Debug\PrimitiveStatisticGraph.exe.manifest
+C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\bin\Debug\PrimitiveStatisticGraph.application
+C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.exe.manifest
+C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.application
+C:\Users\luifer\source\repos\PrimitiveStatisticGraph\PrimitiveStatisticGraph\obj\Debug\PrimitiveStatisticGraph.csproj.AssemblyReference.cache
